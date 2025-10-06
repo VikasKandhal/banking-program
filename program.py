@@ -10,7 +10,7 @@ def withdraw():
     return 0
   else : 
     return amount
-
+#deposit
 def deposit():
   amount = float(input("Enter amount to be deposited : "))
 
@@ -50,6 +50,7 @@ while is_running:
     print("Enter you choice again")
 
 print("Thank You! Have a nice day....")
+
 
 
 
