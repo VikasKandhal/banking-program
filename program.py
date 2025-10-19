@@ -19,7 +19,7 @@ def deposit():
     return 0
   else :
     return amount
-
+#show balance
 def show_balance():
   print(f"Your balance is : ${balance:0.2f}")
 
@@ -50,6 +50,7 @@ while is_running:
     print("Enter you choice again")
 
 print("Thank You! Have a nice day....")
+
 
 
 
